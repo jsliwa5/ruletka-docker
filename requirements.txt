@@ -1,0 +1,14 @@
+# Django framework
+Django>=4.2
+
+# Obsługa CORS (dla połączenia z frontendem React)
+django-cors-headers>=4.0
+
+# W razie potrzeby dla autoryzacji tokenowej
+djangorestframework>=3.14
+
+# Obsługa środowiska (opcjonalnie, np. dla .env plików)
+python-dotenv>=1.0.0
+
+# Inne zależności Django
+sqlparse>=0.4
